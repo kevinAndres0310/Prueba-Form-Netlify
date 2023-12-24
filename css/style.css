@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 100%;
+    height: 100vh;
+    background-color: #8400ff;
+    padding: 30px;
+    padding-right: 30px;
+    background-image: linear-gradient(rgba(128, 0, 128, 0.7),rgba(238, 130, 238, 0.7)) ,url(../assets/teclado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline #ff0;
+}
+
+form input {
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid black; 
+}
+
+form input::placeholder {
+    color: rgba(255, 255, 0, 0.767);
+}
+
+form textarea {
+    width: 100%;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid black;
+}
+
+form textarea::placeholder {
+    color: rgba(255, 255, 0, 0.767);
+}
+
+form #btn_enviar {
+    background-color: #ff0;
+    font-size: 25px;
+    border: 4px solid black;
+    padding: 10px;
+}
